@@ -1,0 +1,8 @@
+Caso de uso: Camara de videocontrol vial.
+Camino básico:
+Una cámara detecta un vehículo que va a más de 70 o 100 km/h.
+El sistema envía los datos a una API que se encargará de guardarlos en una base de datos.
+El sistema envía un correo con los datos que envió la cámara a la cuenta "avisos@ciudad".
+Si el vehículo va a más de 100km/h envía 3 veces los datos recibidos por la cámara a una impresora para que sean impresos.
+
+Escenario de éxito: Los datos fueron enviados e impresos con éxito.

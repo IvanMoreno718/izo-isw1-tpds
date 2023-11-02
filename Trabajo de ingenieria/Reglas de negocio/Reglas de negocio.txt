@@ -1,0 +1,1 @@
+Reglas de negocio: Acción disparadora: El sistema registra el paso de cada vehículo.

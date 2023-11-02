@@ -1,0 +1,3 @@
+Diccionario de datos: datos: fecha y hora, id de la cámara, patente y velocidad.
+
+Cámara: Id, descripción, coordenadas x e y, dirección IP y modelo de la cámara.
