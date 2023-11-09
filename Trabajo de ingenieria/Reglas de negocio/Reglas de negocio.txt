@@ -1,1 +1,5 @@
-Reglas de negocio: Acci�n disparadora: El sistema registra el paso de cada veh�culo.
+Reglas de negocio: Acción disparadora: El sistema registra el paso de cada vehículo.
+
+Hechos: el sistema envía los datos a una API que se encargará de guardarlos en una base de datos.
+El sistema envía un correo con los datos que envió la cámara.
+El sistema envía, 3 veces, los datos recibidos por la cámara a una impresora para que sean impresos.
