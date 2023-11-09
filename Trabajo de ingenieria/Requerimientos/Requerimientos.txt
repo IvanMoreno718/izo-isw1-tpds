@@ -1,5 +1,7 @@
-Requerimientos funcionales: Una c�mara de videocontrol vial, mide la velocidad con la que los autos pasan por una calle.
+Requerimientos funcionales: Una cámara de videocontrol vial, mide la velocidad con la que los autos pasan por una calle.
+
+El paso de cada vehículo deberá registrarse en el sistema.
 
 Requerimientos no funcionales: El sistema debe funcionar 24/7.
 
-Requerimientos de dominio: La velocidad del veh�culo debe ser mayor a 70 o 100 km/h
+Requerimientos de dominio: Cada cámara tiene un id, una descripción, coordenadas x e y de su ubicación, dirección IP y modelo de la cámara.
