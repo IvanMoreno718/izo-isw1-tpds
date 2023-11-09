@@ -1,8 +1,19 @@
 Caso de uso: Camara de videocontrol vial.
-Camino b·sico:
-Una c·mara detecta un vehÌculo que va a m·s de 70 o 100 km/h.
-El sistema envÌa los datos a una API que se encargar· de guardarlos en una base de datos.
-El sistema envÌa un correo con los datos que enviÛ la c·mara a la cuenta "avisos@ciudad".
-Si el vehÌculo va a m·s de 100km/h envÌa 3 veces los datos recibidos por la c·mara a una impresora para que sean impresos.
+Camino b√°sico:
+1-Una c√°mara detecta el paso de un vehiculo.
+2-El sistema revisa la velocidad a la que iba el vehiculo.
 
-Escenario de Èxito: Los datos fueron enviados e impresos con Èxito.
+Camino alternativo:
+
+2.a.1: El sistema detecta que la velocidad del vehiculo no superaba los 70km/h y se vuelve al paso anterior.
+
+2.b.1: El sistema detecta que la velocidad del vehiculo supera los 70km/h.
+2.b.2: El sistema env√≠a los datos a una API que se encargar√° de guardarlos en una base de datos.
+2.b.3: El sistema env√≠a un correo con los datos que envi√≥ la c√°mara a la cuenta "avisos@ciudad".
+
+2.c.1: El sistema detecta que la velocidad del vehiculo supera los 100km/h.
+2.c.2: El sistema env√≠a los datos a una API que se encargar√° de guardarlos en una base de datos.
+2.c.3: El sistema env√≠a un correo con los datos que envi√≥ la c√°mara a la cuenta "alertas@ciudad".
+2.c.4: El sistema env√≠a, 3 veces, los datos recibidos por la c√°mara a una impresora para que sean impresos.
+
+Escenario de √©xito: Los datos fueron enviados e impresos con √©xito.
